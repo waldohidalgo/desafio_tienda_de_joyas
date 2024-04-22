@@ -1,0 +1,13 @@
+import express from "express";
+import router from "./router/router.js";
+import path from "path";
+
+const app = express();
+const PORT = 3000;
+app.listen(PORT, () => {
+  console.log(`El servidor está inicializado en el puerto ${PORT}`);
+});
+
+app.use("/", router);
+
+export default app;
