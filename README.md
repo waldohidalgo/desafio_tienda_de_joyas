@@ -2,9 +2,27 @@
 
 Repositorio con el código solución al desafío 3 del módulo 8 llamado **Implementación de API backend Node Express** perteneciente a la beca entregada por Talento Digital para Chile **Desarrollo de aplicaciones Full Stack Javascript Trainee** dictada por Desafío Latam.
 
+## Tabla de Contenido
+
+- [Resolución de Desafío - Tienda de joyas](#resolución-de-desafío---tienda-de-joyas)
+  - [Tabla de Contenido](#tabla-de-contenido)
+  - [Requisitos](#requisitos)
+  - [Deploy](#deploy)
+  - [Soluciones](#soluciones)
+    - [1. Crear una ruta GET /joyas que devuelva la estructura HATEOAS de todas las joyas almacenadas en la base de datos. (1 Punto)](#1-crear-una-ruta-get-joyas-que-devuelva-la-estructura-hateoas-de-todas-las-joyas-almacenadas-en-la-base-de-datos-1-punto)
+    - [2. Crear una ruta GET /joyas/categoria/:categoria que devuelva solo las joyas correspondientes a la categoría obtenida. (2 Puntos)](#2-crear-una-ruta-get-joyascategoriacategoria-que-devuelva-solo-las-joyas-correspondientes-a-la-categoría-obtenida-2-puntos)
+    - [3. Crear una ruta GET /joyas que permita el filtrado por campos de las joyas. (2 Puntos)](#3-crear-una-ruta-get-joyas-que-permita-el-filtrado-por-campos-de-las-joyas-2-puntos)
+    - [4. Crear una ruta que devuelva como payload un JSON con un mensaje de error cuando el usuario consulte el id de una joya que no exista. (1 Punto)](#4-crear-una-ruta-que-devuelva-como-payload-un-json-con-un-mensaje-de-error-cuando-el-usuario-consulte-el-id-de-una-joya-que-no-exista-1-punto)
+    - [5. Permitir hacer paginación de las joyas usando Query Strings. (2 Puntos)](#5-permitir-hacer-paginación-de-las-joyas-usando-query-strings-2-puntos)
+    - [6. Permitir hacer ordenamiento de las joyas según su valor de forma ascendente o descendente usando Query Strings. (2 Puntos)](#6-permitir-hacer-ordenamiento-de-las-joyas-según-su-valor-de-forma-ascendente-o-descendente-usando-query-strings-2-puntos)
+
 ## Requisitos
 
 ![Requisitos](./screenshots/requisitos_1_2.webp)
+
+## Deploy
+
+El proyecto es completamente funcional y ha sido desplegado en Vercel. Se puede acceder al proyecto en el siguiente [link](https://desafio-tienda-de-joyas.vercel.app/).
 
 ## Soluciones
 
